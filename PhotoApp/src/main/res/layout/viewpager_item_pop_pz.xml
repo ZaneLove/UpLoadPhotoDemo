@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+    <ImageView
+            android:id="@+id/viewpager_pop_pz_iv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_20dp"
+            android:layout_alignParentBottom="true" />
+
+    <TextView
+            android:id="@+id/viewpager_pop_pz_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/viewpager_pop_pz_iv"
+            android:layout_marginTop="@dimen/size_12dp"
+            android:background="@drawable/viewpager_pop_pz_shape"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="@dimen/size_12dp"
+            android:text="取消"
+            android:textColor="@drawable/bt_bg_selector_bgtofc4025_tv"
+            android:textSize="@dimen/size_20dp" />
+
+    <RelativeLayout
+            android:id="@+id/viewpager_pop_pz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/viewpager_pop_pz_back"
+            android:background="@drawable/viewpager_pop_pz_shape" >
+
+        <TextView
+                android:id="@+id/viewpager_pop_pz_pz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="@dimen/size_12dp"
+                android:text="拍照"
+                android:textColor="@drawable/bt_bg_selector_bgtofc4025_tv"
+                android:textSize="@dimen/size_20dp" />
+
+        <ImageView
+                android:id="@+id/viewpager_pop_pz_line"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/viewpager_pop_pz_pz"
+                android:background="@color/color_c9" />
+
+        <TextView
+                android:id="@+id/viewpager_pop_pz_xc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/viewpager_pop_pz_line"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="@dimen/size_12dp"
+                android:text="从相册选取"
+                android:textColor="@drawable/bt_bg_selector_bgtofc4025_tv"
+                android:textSize="@dimen/size_20dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

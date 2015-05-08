@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/size_10dp"
+        android:layout_marginRight="@dimen/size_10dp"
+        android:background="@drawable/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/size_10dp"
+        android:layout_toRightOf="@+id/icon" >
+
+        <TextView
+            android:id="@+id/content_view_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/size_8dp"
+            android:text="0 %"
+            android:textColor="@color/color_c50619"
+            android:textSize="@dimen/size_14dp" />
+
+        <ProgressBar
+            android:id="@+id/content_view_progress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/content_view_text1"
+            android:layout_marginTop="14dp"
+            android:max="100"
+            android:progressDrawable="@drawable/barcolor" />
+    </RelativeLayout>
+
+</RelativeLayout>

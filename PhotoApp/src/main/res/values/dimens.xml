@@ -1,0 +1,120 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="rdo1">0dp</dimen>
+    <dimen name="rdo2">70dp</dimen>
+    <dimen name="rdo3">140dp</dimen>
+    <dimen name="rdo4">210dp</dimen>
+    <dimen name="rdo5">280dp</dimen>
+    <dimen name="info_rdo1">0dp</dimen>
+    <dimen name="info_rdo2">45dp</dimen>
+    <dimen name="info_rdo3">90dp</dimen>
+    <dimen name="info_rdo4">135dp</dimen>
+    <dimen name="info_rdo5">180dp</dimen>
+ 
+    <!-- dp -->
+    <dimen name="size_1dp">1dp</dimen>
+    <dimen name="size_1_5dp">1dp</dimen>
+    <dimen name="size_2dp">2dp</dimen>
+    <dimen name="size_3dp">3dp</dimen>
+    <dimen name="size_4dp">4dp</dimen>
+    <dimen name="size_5dp">5dp</dimen>
+    <dimen name="size_6dp">6dp</dimen>
+    <dimen name="size_7dp">9dp</dimen>
+    <dimen name="size_8dp">8dp</dimen>
+    <dimen name="size_9dp">9dp</dimen>
+    <dimen name="size_10dp">10dp</dimen>
+    <dimen name="size_11dp">11dp</dimen>
+    <dimen name="size_12dp">12dp</dimen>
+    <dimen name="size_13dp">13dp</dimen>
+    <dimen name="size_14dp">14dp</dimen>
+    <dimen name="size_15dp">15dp</dimen>
+    <dimen name="size_15_5dp">15dp</dimen>
+    <dimen name="size_16dp">16dp</dimen>
+    <dimen name="size_17dp">17dp</dimen>
+    <dimen name="size_17_5dp">17dp</dimen>
+    <dimen name="size_18dp">18dp</dimen>
+    <dimen name="size_19dp">19dp</dimen>
+    <dimen name="size_19_5dp">19dp</dimen>
+    <dimen name="size_20dp">20dp</dimen>
+    <dimen name="size_21dp">21dp</dimen>
+    <dimen name="size_22dp">22dp</dimen>
+    <dimen name="size_23dp">23dp</dimen>
+    <dimen name="size_24dp">24dp</dimen>
+    <dimen name="size_25dp">25dp</dimen>
+    <dimen name="size_26dp">26dp</dimen>
+    <dimen name="size_27dp">27dp</dimen>
+    <dimen name="size_30dp">30dp</dimen>
+    <dimen name="size_32dp">32dp</dimen>
+    <dimen name="size_35dp">35dp</dimen>
+     <dimen name="size_39dp">39dp</dimen>
+    <dimen name="size_40dp">40dp</dimen>
+    <dimen name="size_44dp">44dp</dimen>
+    <dimen name="size_45dp">45dp</dimen>
+    <dimen name="size_48dp">48dp</dimen>
+    <dimen name="size_50dp">50dp</dimen>
+    <dimen name="size_56dp">56dp</dimen>
+    <dimen name="size_64dp">64dp</dimen>
+    <dimen name="size_60dp">60dp</dimen>
+    <dimen name="size_62dp">62dp</dimen>
+    <dimen name="size_63dp">63dp</dimen>
+    <dimen name="size_70dp">70dp</dimen>
+    <dimen name="size_72dp">72dp</dimen>
+    <dimen name="size_74dp">74dp</dimen>
+    <dimen name="size_80dp">80dp</dimen>
+    <dimen name="size_88dp">88dp</dimen>
+    <dimen name="size_90dp">90dp</dimen>
+    <dimen name="size_101dp">100dp</dimen>
+    <dimen name="size_106dp">106dp</dimen>
+    <dimen name="size_108dp">108dp</dimen>
+    <dimen name="size_110dp">110dp</dimen>
+    <dimen name="size_170dp">170dp</dimen>
+    <dimen name="size_300dp">300dp</dimen>
+    <dimen name="size_240dp">240dp</dimen>
+    <dimen name="size_100dp">100dp</dimen>
+    <dimen name="size_210dp">210dp</dimen>
+    <dimen name="size_180dp">180dp</dimen>
+    <dimen name="size_190dp">190dp</dimen>
+    <dimen name="size_150dp">150dp</dimen>
+    <dimen name="size_10__dp">-10dp</dimen>
+
+    <!-- sp -->
+    <dimen name="size_1sp">1sp</dimen>
+    <dimen name="size_2sp">2sp</dimen>
+    <dimen name="size_3sp">3sp</dimen>
+    <dimen name="size_4sp">4sp</dimen>
+    <dimen name="size_5sp">5sp</dimen>
+    <dimen name="size_6sp">6sp</dimen>
+    <dimen name="size_7sp">7.5sp</dimen>
+    <dimen name="size_8sp">8sp</dimen>
+    <dimen name="size_9sp">9sp</dimen>
+    <dimen name="size_10sp">10sp</dimen>
+    <dimen name="size_11sp">11sp</dimen>
+    <dimen name="size_12sp">12sp</dimen>
+    <dimen name="size_13sp">13sp</dimen>
+    <dimen name="size_14sp">14sp</dimen>
+    <dimen name="size_15sp">15sp</dimen>
+    <dimen name="size_16sp">16sp</dimen>
+    <dimen name="size_17sp">17sp</dimen>
+    <dimen name="size_18sp">18sp</dimen>
+    <dimen name="size_19sp">19sp</dimen>
+    <dimen name="size_20sp">20sp</dimen>
+    <dimen name="size_21sp">21sp</dimen>
+    <dimen name="size_22sp">22sp</dimen>
+    <dimen name="size_23sp">23sp</dimen>
+    <dimen name="size_24sp">24sp</dimen>
+    <dimen name="size_25sp">25sp</dimen>
+    <dimen name="size_33sp">33sp</dimen>
+    <dimen name="size_80sp">80sp</dimen>
+    <dimen name="size_90sp">90sp</dimen>
+    <dimen name="size_106sp">106sp</dimen>
+
+    <!-- Select_School -->
+    <dimen name="S_S_p_zongbu_layout_marginTop">8dp</dimen>
+    <dimen name="S_S_p_zongbu_layout_marginLeft">14dp</dimen>
+    <dimen name="S_S_p_zongbu_textSize">14sp</dimen>
+    <dimen name="S_S_p_name_layout_marginTop">4dp</dimen>
+
+</resources>

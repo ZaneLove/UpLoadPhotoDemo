@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhotoApp</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="viewpager_edittext_hint">请输入答案或拍照提交答案</string>
+    <string name="upload_image_text">正在提交,请稍后 ... </string>
+</resources>
